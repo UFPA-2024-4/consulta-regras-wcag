@@ -3,33 +3,33 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from ollama import generate
 
-# Carregar o JSON com as regras WCAG
+# Carrega o JSON com as regras WCAG
 with open("data/wcag_rules.json", "r", encoding="utf-8") as file:
     wcag_rules = json.load(file)
 
-# Carregar os embeddings pré-calculados
+# Carrega os embeddings pré-calculados
 embeddings_data = np.load("data/wcag_embeddings.npz")
 embeddings = embeddings_data["embeddings"]
 
-# Inicializar o modelo SBERT
+# Inicializa o modelo SBERT
 modelo = SentenceTransformer("all-MiniLM-L6-v2")
 
-def encontrar_regra_relevante(pergunta):
+def encontra_regra_relevante(pergunta):
     """
     Encontra a regra WCAG mais relevante com base na pergunta do usuário.
     """
-    # Gerar embedding para a pergunta
+    # Gera embedding para a pergunta
     embedding_pergunta = modelo.encode([pergunta])
 
-    # Calcular similaridade coseno
+    # Calcula a similaridade
     similaridades = np.dot(embeddings, embedding_pergunta.T).squeeze()
     indice_mais_similar = np.argmax(similaridades)
 
-    # Retornar a regra mais relevante
+    # Retorna a regra mais relevante
     return wcag_rules[indice_mais_similar]
 
 
-def consultar_ollama(pergunta, regra_relevante):
+def consulta_ollama(pergunta, regra_relevante):
     """
     Consulta o modelo Ollama com a pergunta do usuário e a regra relevante.
     """
@@ -51,16 +51,16 @@ def consultar_ollama(pergunta, regra_relevante):
     return response["response"]
 
 def main():
-    # Perguntar ao usuário
+    # Pergunta ao usuário
     pergunta = input("Digite sua pergunta sobre as regras WCAG: ")
 
-    # Encontrar a regra mais relevante
+    # Encontra a regra mais relevante
     regra_relevante = encontrar_regra_relevante(pergunta)
 
-    # Consultar o Ollama
+    # Consulta o modelo do Ollama
     resposta = consultar_ollama(pergunta, regra_relevante)
 
-    # Mostrar a resposta
+    # Mostra a resposta
     print("\n--- Resposta do Especialista ---")
     print(resposta)
 
