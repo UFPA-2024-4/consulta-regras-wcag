@@ -1,6 +1,6 @@
 # Consulta Regras da WCAG
 
-Este projeto tem como objetivo fornecer respostas relacionadas às regras WCAG (Web Content Accessibility Guidelines) de forma automatizada, utilizando técnicas de Processamento de Linguagem Natural (PLN).
+Este projeto tem como objetivo fornecer respostas relacionadas às regras WCAG (Web Content Accessibility Guidelines) de forma automatizada
 
 ## Funcionalidade
 
