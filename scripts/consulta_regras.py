@@ -18,7 +18,7 @@ def encontra_regra_relevante(pergunta):
     """
     Encontra a regra WCAG mais relevante com base na pergunta do usuário.
     """
-    # Gera embedding para a pergunta
+    # Gera o embedding para a pergunta
     embedding_pergunta = modelo.encode([pergunta])
 
     # Calcula a similaridade
