@@ -1,0 +1,437 @@
+[
+    {
+      "id": "1",
+      "description": "1.1.1 - Conteúdo Não Textual[A]",
+      "details": "Qualquer conteúdo \"não textual\" e relevante para compreensão da informação, deve trazer uma descrição alternativa em texto (visível ou não) para identificar o conteúdo (inclusive captcha, por exemplo)."
+    },
+    {
+      "id": "2",
+      "description": "1.2.1 - Apenas áudio e apenas vídeo (pré-gravado)[A]",
+      "details": "Deve ser fornecida uma das seguintes alternativas para o conteúdo apresentado:"
+    },
+    {
+      "id": "3",
+      "description": "1.2.2 - Legendas (pré-gravadas)[A]",
+      "details": "Apenas áudio:fornecer transcrição descritiva em texto"
+    },
+    {
+      "id": "4",
+      "description": "1.2.3 - Audiodescrição ou mídia alternativa (pré-gravada)[A]",
+      "details": "Apenas vídeo:fornecer transcrição descritiva em texto e/ou uma faixa de áudiodescrição que pode ser habilitada"
+    },
+    {
+      "id": "5",
+      "description": "1.2.4 - Legendas (ao vivo)[AA]",
+      "details": "Qualquer conteúdo pré-gravado que contenha uma faixa de áudio (seja apenas áudio ou vídeo) deve possuir legenda."
+    },
+    {
+      "id": "6",
+      "description": "1.2.5 - Audiodescrição (pré-gravada)[AA]",
+      "details": "Nota:no Brasil, para cumprir o critério, deve-se utilizar \"legendas descritivas\" ou LSE (Legendas para surdos e ensurdecidos)."
+    },
+    {
+      "id": "7",
+      "description": "1.2.6 - Língua de sinais (pré-gravada)[AAA]",
+      "details": "Deve ser fornecida uma audiodescrição ou uma transcrição descritiva em texto para todo conteúdo em vídeo pré-gravado."
+    },
+    {
+      "id": "8",
+      "description": "1.2.7 - Audiodescrição estendida (pré-gravada)[AAA]",
+      "details": "Nota:se for fornecida uma audiodescrição, o critério 1.2.5 (AA) será atendido. Se for fornecida uma transcrição, o critério 1.2.8 (AAA) será atendido."
+    },
+    {
+      "id": "9",
+      "description": "1.2.8 - Mídia alternativa (pré-gravada)[AAA]",
+      "details": "Qualquer conteúdo ao vivo que contenha uma faixa de áudio (seja apenas áudio ou vídeo) deve possuir legenda."
+    },
+    {
+      "id": "10",
+      "description": "1.2.9 - Apenas áudio (ao vivo)[AAA]",
+      "details": "Deve ser fornecida uma audiodescrição para todo conteúdo em vídeo pré-gravado."
+    },
+    {
+      "id": "11",
+      "description": "1.3.1 - Informações e Relações[A]",
+      "details": "Nota:ver junto com critério 1.2.7 (AAA)."
+    },
+    {
+      "id": "12",
+      "description": "1.3.2 - Sequência com significado[A]",
+      "details": "Info:ao atender este critério, o critério 1.2.3 (A) também será atendido."
+    },
+    {
+      "id": "13",
+      "description": "1.3.3 - Características sensoriais[A]",
+      "details": "Qualquer conteúdo pré-gravado que contenha uma faixa de áudio (seja apenas áudio ou vídeo) deve possuir tradução para língua de sinais (respectiva de seu país de origem)."
+    },
+    {
+      "id": "14",
+      "description": "1.3.4 - Orientação[AA]",
+      "details": "Se não for possível manter uma faixa de audiodescrição em conjunto com o áudio original do vídeo (exemplo: sobreposição das falas), deve-se fornecer uma alternativa que permita pausar o vídeo, reproduzir a audiodescrição e, em seguida, retomar o vídeo."
+    },
+    {
+      "id": "15",
+      "description": "1.3.5 - Identificar o propósito de entrada[AA]",
+      "details": "Nota:ver junto com critério 1.2.5 (AA)."
+    },
+    {
+      "id": "16",
+      "description": "1.3.6 - Identificar o propósito[AAA]",
+      "details": "Deve ser fornecida uma transcrição descritiva em texto para todo conteúdo em vídeo pré-gravado."
+    },
+    {
+      "id": "17",
+      "description": "1.4.1 - Uso de cores[A]",
+      "details": "Info:ao atender este critério, o critério 1.2.3 (A) também será atendido."
+    },
+    {
+      "id": "18",
+      "description": "1.4.2 - Controle de áudio[A]",
+      "details": "Qualquer conteúdo em áudio que seja transmitido ao vivo deve possuir uma transcrição descritiva em texto."
+    },
+    {
+      "id": "19",
+      "description": "1.4.3 - Contraste (mínimo)[AA]",
+      "details": "Dica:a transcrição neste caso é fornecida por estenotipistas devido a uma maior assertividade. Serviços automatizados não atendem ao critério de forma satisfatória."
+    },
+    {
+      "id": "20",
+      "description": "1.4.4 - Redimensionar texto[AA]",
+      "details": "A organização estrutural de uma tela deve ser construída de forma que sua arquitetura de informação faça sentido tanto para quem vê, quanto para quem ouve o conteúdo."
+    },
+    {
+      "id": "21",
+      "description": "1.4.5 - Imagens de texto[AA]",
+      "details": "Dica:o desafio aqui é proporcionar experiências equivalentes relacionadas aos contextos visuais e auditivos."
+    },
+    {
+      "id": "22",
+      "description": "1.4.6 - Contraste (melhorado)[AAA]",
+      "details": "Seja qual for o método de interação, a apresentação das informações na tela sempre deverá ter uma sequência lógica."
+    },
+    {
+      "id": "23",
+      "description": "1.4.7 - Áudio de fundo baixo ou sem Áudio de fundo[AAA]",
+      "details": "Dica:conteúdos responsivos não devem impactar o entendimento da informação independentemente do tamanho da tela."
+    },
+    {
+      "id": "24",
+      "description": "1.4.8 - Apresentação visual[AAA]",
+      "details": "Nota:ver junto com critério 2.4.3 (A)."
+    },
+    {
+      "id": "25",
+      "description": "1.4.9 - Imagens de texto (sem exceção)[AAA]",
+      "details": "Qualquer tipo de instrução ou direcionamento não deve depender de um formato específico, localização espacial, som ou qualquer outra característica sensorial."
+    },
+    {
+      "id": "26",
+      "description": "1.4.10 - Realinhar[AA]",
+      "details": "Exemplo:evitar expressões como \"clique no botão abaixo\" ou \"clique no botão verde\" ou \"ao ouvir um bip, selecione uma opção\"."
+    },
+    {
+      "id": "27",
+      "description": "1.4.11 - Contrastenão textual[AA]",
+      "details": "Nenhuma funcionalidade deve depender de uma determinada orientação de tela (exemplo: virar o celular na horizontal), a não ser que seja imprescindível para execução da função."
+    },
+    {
+      "id": "28",
+      "description": "1.4.12 - Espaçamentode texto[AA]",
+      "details": "As pessoas devem ter clareza do que devem preencher em campos de formulários."
+    },
+    {
+      "id": "29",
+      "description": "1.4.13 - Conteúdo em foco por mouse ou teclado[AA]",
+      "details": "Dica:em um campo que solicita o preenchimento do e-mail, deve ser claro qual e-mail deve ser preenchido (pessoal? comercial? etc)."
+    },
+    {
+      "id": "30",
+      "description": "2.1.1 - Teclado[A]",
+      "details": "Nota:ver junto com critérios 2.4.6 (AA) e 3.3.2 (A)."
+    },
+    {
+      "id": "31",
+      "description": "2.1.2 - Sem bloqueio do teclado[A]",
+      "details": "Utilizar elementos facilmente identificáveis em uma interface é um começo, mas não garante que todas as pessoas compreendam as informações. Possibilitar customizações (exemplo: pessoa fechar um anúncio ou conseguir diminuir a quantidade de informações na tela) aumenta a capacidade cognitiva para algumas pessoas (ver critério completo)."
+    },
+    {
+      "id": "32",
+      "description": "2.1.3 - Teclado (sem exceção)[AAA]",
+      "details": "Cores não devem ser utilizadas como única maneira de transmitir conteúdo ou distinguir elementos visuais."
+    },
+    {
+      "id": "33",
+      "description": "2.1.4 - Atalhos de teclado por caractere[A]",
+      "details": "Dica:uma mensagem de erro em um formulário deve trazer um ícone de alerta, uma mensagem informando como corrigir o erro e também uma cor destacando a informação (e não apenas a mudança de cor)."
+    },
+    {
+      "id": "34",
+      "description": "2.2.1 - Tempo ajustável[A]",
+      "details": "Deve ser fornecida uma forma simples de pausar, deixar mudo ou ajustar o volume para qualquer áudio que toque automaticamente por mais de 3 segundos na interface."
+    },
+    {
+      "id": "35",
+      "description": "2.2.2 - Colocar em pausa, parar, ocultar[A]",
+      "details": "Textos devem ter uma relação de contraste entre primeiro e segundo plano de ao menos 4.5:1 (ver critério completo)."
+    },
+    {
+      "id": "36",
+      "description": "2.2.3 - Sem limite de tempo[AAA]",
+      "details": "Nota:caso o tamanho das fontes de textos sejam no mínimo \"18pt\" ou \"14pt bold\" a relação de contraste pode ser de 3:1."
+    },
+    {
+      "id": "37",
+      "description": "2.2.4 - Interrupções[AAA]",
+      "details": "Ao se aplicar zoom de até 200% na tela, deve ocorrer a responsividade dos textos apresentados de forma que sua leitura e legibilidade continuem adequados sem qualquer quebra na apresentação das informações."
+    },
+    {
+      "id": "38",
+      "description": "2.2.5 - Reautenticação[AAA]",
+      "details": "Nota:ver junto com critério 1.4.10 (AA)."
+    },
+    {
+      "id": "39",
+      "description": "2.2.6 - Limites detempo[AAA]",
+      "details": "Qualquer trecho na tela que pode ser exibido em formato de texto estilizado (exemplo: uma citação de uma frase de um autor específico ou um título de seção), não deve ser apresentado em formato de imagem, a não ser que possam ser customizados pela pessoa."
+    },
+    {
+      "id": "40",
+      "description": "2.3.1 - Três flashes ou abaixo do limite[A]",
+      "details": "Nota:ver junto com critério 1.4.9 (AAA)."
+    },
+    {
+      "id": "41",
+      "description": "2.3.2 - Três flashes[AAA]",
+      "details": "Textos devem ter uma relação de contraste entre primeiro e segundo plano de ao menos 7:1 (ver critério completo)."
+    },
+    {
+      "id": "42",
+      "description": "2.3.3 - Animaçõesde interações[AAA]",
+      "details": "Nota:caso o tamanho das fontes de textos sejam no mínimo \"18pt\" ou \"14pt bold\" a relação de contraste pode ser de 4.5:1."
+    },
+    {
+      "id": "43",
+      "description": "2.4.1 - Contornar blocos[A]",
+      "details": "Qualquer tipo de som que não seja a voz principal em um áudio ou vídeo, deverá ser baixo, inexistente ou ter um tipo de controle simples que possibilite o seu desligamento."
+    },
+    {
+      "id": "44",
+      "description": "2.4.2 - Página com título[A]",
+      "details": "Fornecer controles específicos para permitir o controle da apresentação das informações em tela sem comprometer sua legibilidade."
+    },
+    {
+      "id": "45",
+      "description": "2.4.3 - Ordem do foco[A]",
+      "details": "Dica:Deve ser possível ajustar cores entre primeiro e segundo plano, manter a largura de parágrafos em até 80 caracteres ou permitir o ajuste de seus espaçamentos."
+    },
+    {
+      "id": "46",
+      "description": "2.4.4 - Finalidade do link (em contexto)[A]",
+      "details": "Imagens de texto são permitidas apenas nos casos em que essas imagens sejam decorativas e não essenciais para compreensão do conteúdo."
+    },
+    {
+      "id": "47",
+      "description": "2.4.5 - Várias formas[AA]",
+      "details": "Dica:marcas e logotipos são exemplos de exceção a regra."
+    },
+    {
+      "id": "48",
+      "description": "2.4.6 - Cabeçalhos e rótulos[AA]",
+      "details": "Info:ao atender este critério, o critério 1.4.5 (AA) também será atendido."
+    },
+    {
+      "id": "49",
+      "description": "2.4.7 - Foco visível[AA]",
+      "details": "Ao se aplicar zoom de até 400% na tela, deve ocorrer a responsividade das informações apresentadas para que não ocorra o scroll horizontal. Os elementos precisam se adaptar a tela a ponto de se evitar o scroll vertical e também horizontal."
+    },
+    {
+      "id": "50",
+      "description": "2.4.8 - Localização[AAA]",
+      "details": "Nota:ver junto com critério 1.4.5 (AA)."
+    },
+    {
+      "id": "51",
+      "description": "2.4.9 - Finalidade do link (apenas link)[AAA]",
+      "details": "Componentes de interface (exemplo: botões) e imagens essenciais para o entendimento do conteúdo devem ter uma relação de contraste entre primeiro e segundo plano de ao menos 3:1."
+    },
+    {
+      "id": "52",
+      "description": "2.4.10 - Cabeçalhos da seção[AAA]",
+      "details": "Nota:ver junto com critérios 1.4.3 (AA) e 1.4.6 (AAA)."
+    },
+    {
+      "id": "53",
+      "description": "2.4.11 - Foco não obscurecido (mínimo)[AA]",
+      "details": "Sempre que as pessoas efetuarem ajustes e redimensionamentos (por conta própria) nos textos de um conteúdo para alguns valores específicos (ver critério completo), não deve ocorrer perda de legibilidade das informações apresentadas."
+    },
+    {
+      "id": "54",
+      "description": "2.4.12 - Foco não obscurecido (melhorado)[AAA]",
+      "details": "Nota:ver junto com critério 1.4.8 (AAA)."
+    },
+    {
+      "id": "55",
+      "description": "2.4.13 - Aparênciado foco[AAA]",
+      "details": "Conteúdos adicionais (exemplo: tooltip ou sub-menu) não devem ser acionados apenas com foco por mouse (mouse over) ou teclado. Caso isso ocorra, certas condições devem ser atendidas (ver critério completo)."
+    },
+    {
+      "id": "56",
+      "description": "2.5.1 - Gestos de acionamento[A]",
+      "details": "Todas as funcionalidades devem ser acionadas via teclado, a menos que a funcionalidade não possibilite o controle apenas por teclado."
+    },
+    {
+      "id": "57",
+      "description": "2.5.2 - Cancelamentode acionamento[A]",
+      "details": "Dica:o critério também atende a teclados bluetooth configurados em aparelhos móveis (ver critério 2.5.6)."
+    },
+    {
+      "id": "58",
+      "description": "2.5.3 - Rótulo emNome[A]",
+      "details": "Nota:ver junto com critérios 2.1.2 (A) e 2.1.3 (AAA)."
+    },
+    {
+      "id": "59",
+      "description": "2.5.4 - Atuação por movimento[A]",
+      "details": "Ao se interagir via teclado, a navegação por todos os elementos \"clicáveis\" deve ocorrer sem que haja bloqueios ou interrupções."
+    },
+    {
+      "id": "60",
+      "description": "2.5.5 - Tamanho do alvo (melhorado)[AAA]",
+      "details": "Dica:elementos \"não clicáveis\" são acionados por atalhos específicos no teclado quando o leitor de telas está habilitado."
+    },
+    {
+      "id": "61",
+      "description": "2.5.6 - Mecanismos de entrada simultâneos[AAA]",
+      "details": "Todas as funcionalidades devem ser acionadas via teclado, sem exceção."
+    },
+    {
+      "id": "62",
+      "description": "2.5.7 - Movimentos de arrastar[AA]",
+      "details": "Nota:ao atender este critério, o critério 2.1.1 (A) também será atendido."
+    },
+    {
+      "id": "63",
+      "description": "2.5.8 - Tamanho do alvo (mínimo)[AA]",
+      "details": "Deve-se evitar a criação de atalhos de teclado utilizando apenas simples caracteres (exemplo: letras ou números) que podem entrar em conflito com atalhos já existentes no sistema. Caso isso ocorra, certas condições devem ser atendidas (ver critério completo)."
+    },
+    {
+      "id": "64",
+      "description": "3.1.1 - Idioma da página[A]",
+      "details": "Caso seja definida uma funcionalidade que exija tempo para execução e essa não seja essencial (obrigatória do ponto de vista legal), deve-se incluir também uma opção para desligá-lo ou uma opção para ampliá-lo."
+    },
+    {
+      "id": "65",
+      "description": "3.1.2 - Idioma das partes[AA]",
+      "details": "Nota:ver junto com critérios 2.2.6 (AAA) e 3.2.1 (A)."
+    },
+    {
+      "id": "66",
+      "description": "3.1.3 - Palavras incomuns[AAA]",
+      "details": "Qualquer elemento na tela que tenha movimento automático ou pisque e que dure mais do que 5 segundos, deve ter um tipo de controle onde a pessoa que o utiliza pode pausar, parar ou ocultar (ver critério completo)."
+    },
+    {
+      "id": "67",
+      "description": "3.1.4 - Abreviaturas[AAA]",
+      "details": "Nota:ver junto com critério 2.3.3 (AAA), que refere-se exclusivamente ao acionamento ocasionado por pessoas."
+    },
+    {
+      "id": "68",
+      "description": "3.1.5 - Nível de leitura[AAA]",
+      "details": "Nenhuma funcionalidade em tela deve possuir algum tipo de execução mediante o cumprimento em um determinado período de tempo."
+    },
+    {
+      "id": "69",
+      "description": "3.1.6 - Pronúncia[AAA]",
+      "details": "Dica:Eventos em tempo real, são exceções."
+    },
+    {
+      "id": "70",
+      "description": "3.2.1 - Em foco[A]",
+      "details": "Qualquer tipo de interrupção (exemplo: alertas de mensagem em um bate-papo) que possa confundir alguém, deve possuir uma opção que permita o seu desligamento ou adiamento, a não ser que envolva uma emergência que preserve a saúde, segurança ou bens da pessoa."
+    },
+    {
+      "id": "71",
+      "description": "3.2.2 - Em entrada[A]",
+      "details": "Quando uma seção autenticada expira, qualquer pessoa logada deve ser capaz de continuar sua atividade, sem qualquer perda de dados, ao efetuar uma nova autenticação no ambiente."
+    },
+    {
+      "id": "72",
+      "description": "3.2.3 - Navegação consistente[AA]",
+      "details": "Caso haja inatividade (inferior a 20 horas) e essa resulte em perda de dados preenchidos anteriormente, deve-se emitir uma mensagem na tela informando a pessoa de que esses dados serão perdidos."
+    },
+    {
+      "id": "73",
+      "description": "3.2.4 - Identificação consistente[AA]",
+      "details": "Nota:ver junto com critério 2.2.1 (A)."
+    },
+    {
+      "id": "74",
+      "description": "3.2.5 - Mudança mediante solicitação[AAA]",
+      "details": "Nenhum conteúdo da página deve piscar mais que 3 vezes por segundo, a não ser que os flashes estejam em baixo contraste ou possuam pouco vermelho (ver critério completo)."
+    },
+    {
+      "id": "75",
+      "description": "3.2.6 - Ajudaconsistente[A]",
+      "details": "Nota:ver junto com critério 2.3.2 (AAA)."
+    },
+    {
+      "id": "76",
+      "description": "3.3.1 - Identificação do erro[A]",
+      "details": "Nenhum conteúdo da página deve piscar mais que 3 vezes por segundo, sem exceção (ver critério completo)."
+    },
+    {
+      "id": "77",
+      "description": "3.3.2 - Rótulos ou instruções[A]",
+      "details": "Info:ao atender este critério, o critério 2.3.1 (A) também será atendido."
+    },
+    {
+      "id": "78",
+      "description": "3.3.3 - Sugestão de erro[AA]",
+      "details": "Qualquer tipo de animação interativa (não essencial) e acionada pela pessoa (exemplo: rolagem com efeito parallax) deve possuir uma forma simples de ser desativada."
+    },
+    {
+      "id": "79",
+      "description": "3.3.4 - Prevenção de erros (legal, financeiro, dados)[AA]",
+      "details": "Nota:ver junto com critério 2.2.2 (A), que refere-se exclusivamente ao acionamento automático."
+    },
+    {
+      "id": "80",
+      "description": "3.3.5 - Ajuda[AAA]",
+      "details": "Deve ser fornecido um tipo de controle para que as pessoas possam ignorar determinados conteúdos repetitivos (exemplo: um menu de navegação)."
+    },
+    {
+      "id": "81",
+      "description": "3.3.6 - Prevenção de erros (todos)[AAA]",
+      "details": "Dica:trata-se de um critério exclusivo para pessoas que usam teclado."
+    },
+    {
+      "id": "82",
+      "description": "3.3.7 - Entrada redundante[A]",
+      "details": "Nota:ver junto com critérios 1.3.1 (A), 2.4.2 (A) e 2.4.10 (AAA)."
+    },
+    {
+      "id": "83",
+      "description": "3.3.8 - Autenticação acessível (mínimo)[AA]",
+      "details": "Todas as telas devem ter um título principal e que descreva claramente a sua finalidade."
+    },
+    {
+      "id": "84",
+      "description": "3.3.9 - Autenticação acessível (melhorado)[AAA]",
+      "details": "Nota:Trata-se do título que aparece na aba de uma página no navegador (e não do título de nível 1 em um conteúdo principal)."
+    },
+    {
+      "id": "85",
+      "description": "4.1.1 - Análise[REMOVIDO]",
+      "details": "A interação por elementos focáveis na tela sempre deverá ser sequencial e lógica de acordo com o conteúdo apresentado."
+    },
+    {
+      "id": "86",
+      "description": "4.1.2 - Nome, função,valor[A]",
+      "details": "Nota:ver junto com critério 1.3.2 (A)."
+    },
+    {
+      "id": "87",
+      "description": "4.1.3 - Mensagensde status[AA]",
+      "details": "A finalidade de um link deve ser determinada a partir do texto do próprio link ou a partir do contexto no entorno deste link."
+    }
+]
